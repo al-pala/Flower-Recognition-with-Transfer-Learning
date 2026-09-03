@@ -423,8 +423,8 @@ The project was developed using:
 
 Clone the repository:
 
-    git clone <YOUR_REPOSITORY_URL>
-    cd project
+    git clone https://github.com/andrealuigipala-del/Flower-Recognition-with-Transfer-Learning
+    cd Flower-Recognition-with-Transfer-Learning
 
 Create a virtual environment:
 
@@ -438,9 +438,11 @@ On Windows:
 
     .venv\Scripts\activate
 
-Install the required libraries:
+Install all project dependencies from `requirements.txt`:
 
-    pip install torch torchvision timm numpy scikit-learn matplotlib seaborn pillow
+    pip install -r requirements.txt
+
+The `requirements.txt` file contains the Python packages required to run the project, including PyTorch, Torchvision, timm, NumPy, Scikit-learn, Matplotlib, Seaborn, and Pillow.
 
 ---
 
